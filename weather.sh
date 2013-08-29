@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BASE_DIR="/Users/glynis/Pictures/wallpapers/geektoolNYC/"
+BASE_DIR="/Users/glynis/Pictures/wallpapers/weatherGeeklet/"
 cd "$BASE_DIR"
 
 while true
@@ -16,3 +16,4 @@ do
 	sleep 3600
 done
 # clear, partlycloudy, mostlycloudy, rain
+
