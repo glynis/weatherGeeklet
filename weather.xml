@@ -1,0 +1,105 @@
+	<current_observation>
+		<credit>Weather Underground NOAA Weather Station</credit>
+		<credit_URL>http://wunderground.com/</credit_URL>
+<termsofservice link="http://www.wunderground.com/weather/api/d/terms.html">This feed will be deprecated. Please switch to http://www.wunderground.com/weather/api/</termsofservice>
+		<image>
+		<url>http://icons-ak.wxug.com/graphics/wu2/logo_130x80.png</url>
+		<title>Weather Underground</title>
+		<link>http://wunderground.com/</link>
+		</image>
+  <display_location>
+  <full>Bradley International, CT</full>
+  <city>Bradley International</city>
+  <state>CT</state>
+  <state_name>Connecticut</state_name>
+  <country>US</country>
+  <country_iso3166>US</country_iso3166>
+  <zip>06199</zip>
+  <latitude>41.93888855</latitude>
+  <longitude>-72.68305206</longitude>
+  <elevation>52.00000000 ft</elevation>
+  </display_location>
+		<observation_location>
+		<full>Windsor Locks, Connecticut</full>
+		<city>Windsor Locks</city>
+		<state>Connecticut</state>
+		<country>US</country>
+		<country_iso3166>US</country_iso3166>
+		<latitude>41.93999863</latitude>
+		<longitude>-72.68000031</longitude>
+		<elevation>171 ft</elevation>
+		</observation_location>
+		<station_id>KBDL</station_id>
+		<observation_time>Last Updated on August 28, 4:51 PM EDT</observation_time>
+		<observation_time_rfc822>Wed, 28 Aug 2013 20:51:00 GMT</observation_time_rfc822>
+		<observation_epoch>1377723060</observation_epoch>
+		<local_time>August 28, 5:18 PM EDT</local_time>
+		<local_time_rfc822>Wed, 28 Aug 2013 21:18:17 GMT</local_time_rfc822>
+		<local_epoch>1377724697</local_epoch>
+		<weather>Scattered Clouds</weather>
+		<temperature_string>84 F (29 C)</temperature_string>
+		<temp_f>84</temp_f>
+		<temp_c>29</temp_c>
+		<relative_humidity>55%</relative_humidity>
+		<wind_string>From the SSE at 17 MPH </wind_string>
+		<wind_dir>SSE</wind_dir>
+		<wind_degrees>150</wind_degrees>
+		<wind_mph>17</wind_mph>
+		<wind_gust_mph></wind_gust_mph>
+		<pressure_string>29.84 in (1010 mb)</pressure_string>
+		<pressure_mb>1010</pressure_mb>
+		<pressure_in>29.84</pressure_in>
+		<dewpoint_string>66 F (19 C)</dewpoint_string>
+		<dewpoint_f>66</dewpoint_f>
+		<dewpoint_c>19</dewpoint_c>
+		
+		<heat_index_string>86 F (30 C)</heat_index_string>
+		<heat_index_f>86</heat_index_f>
+		<heat_index_c>30</heat_index_c>
+		
+		
+		<windchill_string>NA</windchill_string>
+		<windchill_f>NA</windchill_f>
+		<windchill_c>NA</windchill_c>
+		
+		<visibility_mi>10.0</visibility_mi>
+		<visibility_km>16.1</visibility_km>
+		<icons>
+			<icon_set name="Default">
+				<icon_url>http://icons-ak.wxug.com/i/c/a/partlycloudy.gif</icon_url>
+			</icon_set>
+			<icon_set name="Smiley">
+				<icon_url>http://icons-ak.wxug.com/i/c/b/partlycloudy.gif</icon_url>
+			</icon_set>
+			<icon_set name="Generic">
+				<icon_url>http://icons-ak.wxug.com/i/c/c/partlycloudy.gif</icon_url>
+			</icon_set>
+			<icon_set name="Old School">
+				<icon_url>http://icons-ak.wxug.com/i/c/d/partlycloudy.gif</icon_url>
+			</icon_set>
+			<icon_set name="Cartoon">
+				<icon_url>http://icons-ak.wxug.com/i/c/e/partlycloudy.gif</icon_url>
+			</icon_set>
+			<icon_set name="Mobile">
+				<icon_url>http://icons-ak.wxug.com/i/c/f/partlycloudy.gif</icon_url>
+			</icon_set>
+			<icon_set name="Simple">
+				<icon_url>http://icons-ak.wxug.com/i/c/g/partlycloudy.gif</icon_url>
+			</icon_set>
+			<icon_set name="Contemporary">
+				<icon_url>http://icons-ak.wxug.com/i/c/h/partlycloudy.gif</icon_url>
+			</icon_set>
+			<icon_set name="Helen">
+				<icon_url>http://icons-ak.wxug.com/i/c/i/partlycloudy.gif</icon_url>
+			</icon_set>
+			<icon_set name="Incredible">
+				<icon_url>http://icons-ak.wxug.com/i/c/k/partlycloudy.gif</icon_url>
+			</icon_set>
+		</icons>
+		<icon_url_base>http://icons-ak.wxug.com/graphics/conds/</icon_url_base>
+		<icon_url_name>.GIF</icon_url_name>
+		<icon>partlycloudy</icon>
+		<forecast_url>http://www.wunderground.com/US/CT/Bradley_International.html</forecast_url>
+		<history_url>http://www.wunderground.com/history/airport/KBDL/2013/8/28/DailyHistory.html</history_url>
+		<ob_url>http://www.wunderground.com/cgi-bin/findweather/getForecast?query=41.93999863,-72.68000031</ob_url>
+	</current_observation>
