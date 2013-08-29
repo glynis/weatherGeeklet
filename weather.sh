@@ -7,7 +7,7 @@ while true
 do
 	curl -s http://api.wunderground.com/auto/wui/geo/WXCurrentObXML/index.xml?query=BDL > weather.xml
 #	weather=$(cat weather.xml | grep '<icon>' | tr -d '\t' | sed 's/^<.*>\([^<].*\)<.*>$/\1/')
-	weather=partlycloudy
+	weather=cloudy
 	file="$weather.png"
 	if [ -s "current.png" ]; then
 	rm current.png
