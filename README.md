@@ -1,7 +1,7 @@
 weatherGeeklet
 ==============
 
-This Geeklet written for GeekTool is meant to display the weather status integrated with the wallpaper.  
+This Geeklet written for GeekTool is meant to display the weather status integrated with the wallpaper.  It includes the weather.sh bash script, an example of the weather.xml file, the cloud_360.png to be placed over the geektool, and four weather status PNG files (clear, partlycloudy, cloudy, and rain), as well as current.png.  I plan to add winter weather, but it hasn't snowed since I started working on this project.  
 
 The while loop, which runs silently and indefinitely once every 1 hour, first pulls information from Wunderground.com and outputs it to an XML file (named weather.xml).
 
@@ -11,6 +11,3 @@ Line 12 begins an if loop, where the conditional looks for 'current.png' and if 
 
 file://localhost/Users/glynis/Pictures/wallpapers/weatherGeeklet/current.png
 
-Other possible geektools using the created XML file include one for temperature: 
-
-echo $(cat /Users/glynis/Pictures/wallpapers/weatherGeeklet/weather.xml | grep '<temp_f>' | tr -d '\t' | sed 's/^<.*>\([^<].*\)<.*>$/\1/')°
