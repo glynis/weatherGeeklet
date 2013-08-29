@@ -10,3 +10,7 @@ Lines 9 - 15 are involved in changing the weather status icon that is integrated
 Line 12 begins an if loop, where the conditional looks for 'current.png' and if one exists, removes it.  It then copies the value of the 'file' variable to current.png, which is used by the small shell script for the geektool itself, as below:
 
 file://localhost/Users/glynis/Pictures/wallpapers/weatherGeeklet/current.png
+
+Other possible geektools using the created XML file include one for temperature: 
+
+echo $(cat /Users/glynis/Pictures/wallpapers/weatherGeeklet/weather.xml | grep '<temp_f>' | tr -d '\t' | sed 's/^<.*>\([^<].*\)<.*>$/\1/')°
