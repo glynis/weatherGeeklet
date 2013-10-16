@@ -33,9 +33,9 @@
 		<observation_time>Last Updated on October 16, 12:51 PM EDT</observation_time>
 		<observation_time_rfc822>Wed, 16 Oct 2013 16:51:00 GMT</observation_time_rfc822>
 		<observation_epoch>1381942260</observation_epoch>
-		<local_time>October 16, 1:29 PM EDT</local_time>
-		<local_time_rfc822>Wed, 16 Oct 2013 17:29:22 GMT</local_time_rfc822>
-		<local_epoch>1381944562</local_epoch>
+		<local_time>October 16, 1:34 PM EDT</local_time>
+		<local_time_rfc822>Wed, 16 Oct 2013 17:34:23 GMT</local_time_rfc822>
+		<local_epoch>1381944863</local_epoch>
 		<weather>Overcast</weather>
 		<temperature_string>59 F (15 C)</temperature_string>
 		<temp_f>59</temp_f>
