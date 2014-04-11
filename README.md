@@ -5,6 +5,8 @@ This Geeklet written for GeekTool is meant to display the weather status integra
 
 The while loop, which runs silently and indefinitely once every 1 hour, first pulls information from Wunderground.com and outputs it to an XML file (named weather.xml).
 
-Lines 9 - 15 are involved in changing the weather status icon that is integrated with the background image (in this case behind the cloud).  Line 9 attempts to pul the name for the image file from the <icon> tag in the XML document created on line 8.  Here I am struggling with the regular expressions to assign just the word from between the tags to the variable 'weather' and not the entire string '<icon>cloudy</icon>'.  Line 10 is a manual stand in line to see if the rest of the code would feasibly work if line 9 was also.  Line 11 assigns the variable 'file' to the value of the 'weather' variable with the .png extension.  
+Lines 9 - 15 are involved in changing the weather status icon that is integrated with the background image (in this case behind the cloud).  Line 9 calls the Python file grabIcon.py to pull the name for the image file from the <icon> tag in the XML document created on line 8.  Line 10 is a failed attempt to pull the value from between the <icon> tags with Bash, however the script would create <icon>condition</icon>.png instead of just condition.png so I opted for a python script.  Line 11 is a stand in line to manually change the weather for testing image placement.  Line 12 prints the value found by grabIcon.py and line 13 assigns the variable 'file' to the value of the 'weather' variable with the .png extension.  
 
-Line 12 begins an if loop, where the conditional looks for 'current.png' and if one exists, removes it.  It then copies the value of the 'file' variable to current.png, which is the file called by the geektool itself.
+Lines 14-17 contain an if loop, where the conditional looks for 'current.png' and if one exists, removes it.  It then copies the value of the 'file' variable to current.png, which is the file called by the geektool itself.
+
+Line 18 calls the program to sleep for 300 seconds (5 minutes).
